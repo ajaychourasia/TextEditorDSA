@@ -12,6 +12,8 @@ namespace UFOtexteditor
 {
     public partial class Form1 : Form
     {
+
+  
         public Form1()
         {
             InitializeComponent();
@@ -106,6 +108,12 @@ namespace UFOtexteditor
 
             KMPSearch(searchStr, searchIn);
         }
+
+        /// <summary>
+        /// KMP algo to find a pattern in a string.
+        /// </summary>
+        /// <param name="pat"></param>
+        /// <param name="txt"></param>
 
         void KMPSearch(string pat, string txt)
         {
